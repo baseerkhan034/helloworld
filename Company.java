@@ -10,6 +10,8 @@ import jakarta.persistence.Id;
 @Table(name = "company")
 public class Company {
 	
+	
+	//this is just the comment which is to make the coder understand that this is the small changes that has been implemented.
 	@Id
 	@Column(name="company_id")
 	private long companyId;
